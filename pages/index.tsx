@@ -1,5 +1,5 @@
-import { MenuLink } from '../src/components/MenuLink/MenuLink';
+import { Home } from '../src/templates/Home';
 
-export default function Home() {
-  return <MenuLink link="teste">Teste</MenuLink>;
+export default function Index() {
+  return <Home />;
 }
